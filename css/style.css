@@ -1,0 +1,235 @@
+/* Resetear estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: sans-serif;
+    color: #333;
+	background-color: #3b5063;
+  }
+  
+  /* Header */
+  header {
+    background-color: rgba(0,29,39,255);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin-top: 0;
+  }
+  
+  header h2 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+  }
+  
+  header img {
+    width: 140px;
+    height: 120px;
+    float: left;
+    margin-right: 20px;
+    
+    
+  }
+
+  
+  .botones {
+    display: flex;
+    justify-content: center;
+    margin-left: 76%;
+
+
+}
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+	background-color: #3b5063;
+  color: #fff;
+   
+}
+
+button:hover {
+    background-color: rgba(0,29,39,255);
+}
+nav{
+	max-width: 100%;
+	margin: ato;
+	background-color: rgba(0,29,39,255);
+	font-size: 20px;
+	
+}
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover{
+	background-color: #3b5063;
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: black;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+  /* Banner */
+  .banner {
+    position: relative;
+    height: 550px;
+    overflow: hidden;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  /* Cursos */
+  .cursos {
+    padding: 20px;
+  }
+  
+  .cursos h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .grid-cursos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .curso {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .curso img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .curso h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .curso p {
+    font-size: 1em;
+    margin: 0;
+  }
+  
+  .curso a {
+    background-color: #0073b7;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  /* Testimonios */
+  .testimonios {
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .testimonios h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .grid-testimonios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .testimonio {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+  }
+  
+  .testimonio p {
+    font-size: 1em;
+    margin: 0;
+  }
+  
+  .testimonio strong {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: rgba(0,29,39,255);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Media queries para dispositivos móviles */
+  @media (max-width: 768px) {
+    .grid-cursos {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .grid-testimonios {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  
