@@ -167,6 +167,31 @@ nav{
     text-decoration: none;
     margin-top: 10px;
   }
+
+  .articulos p{
+    color: #ffffff;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin: 10px 0;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .articulos {
+    padding: 20px 0;
+  }
+  
+  .articulos ul {
+    list-style: none;
+    padding: 0;
+    color: #ffffff;
+  }
+  
+  .articulos ul li {
+    margin: 10px 0;
+  }
   
   /* Testimonios */
   .testimonios {
@@ -248,12 +273,13 @@ nav{
 
  .footer p {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 15px;
     position: absolute;
       bottom: 75%px;
       right: 20px;
       margin: auto;
       text-align: center;
+      margin-top: 70px;
     
     
   }
