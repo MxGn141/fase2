@@ -19,7 +19,7 @@
 
   <nav>
 		<ul class="menu-horizontal">
-			<li><a href="fase2.html">Inicio</a></li>
+			<li><a href="index.html">Inicio</a></li>
 			<li>
 				<a href="#">Cursos</a>	
 			</li>
