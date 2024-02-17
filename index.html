@@ -5,75 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Edumind</title>
   <link rel="stylesheet" href="css/style.css">
-
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
   <header>
     <a href="index.html"><img src="img/logo.png" alt="Edumind"></a>
-    <h1>Edumind</h1>
-    <h2>Forjando un futuro</h2>
-    <div class="botones">
-      <a href="registro.php"><button>Iniciar Sesión</button></a>
-      <a href="registro.php"><button>Registrarse</button></a>
-  </div>
-  </header>
-  <main>
-    <nav>
-		<ul class="menu-horizontal">
-			<li><a href="index.html">Inicio</a></li>
-			<li>
-				<a href="cursos.html">Cursos</a>	
-			</li>
-			<li>
-				<a href="contacto.html">Contacto</a>	
-			</li>
-			<li><a href="Conocenos.html">Conocenos</a>
-
-            </li>
+   
+  <nav>
+    <input type="checkbox" id="check">
+<label for="check" class="checkbtn">
+<i class="fas fa-bars"></i>
+</label>
+		<ul>
+			<li><a href="index.html" class="active" href="#">Inicio</a></li>
+			<li><a href="cursos.html">Cursos</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="Conocenos.html">Conocenos</a></li>
 		</ul>
 	</nav>
+  <!--
+   <div class="boton-busqueda">
+  <form action="#">
+    <input type="text" placeholder="Buscar..." name="busqueda">
+    <button type="submit">Buscar</button>
+  </form>
+   </div>
+  <div class="botones">
+    <a href="registro.php"><button>Iniciar Sesión</button></a>
+    <a href="registro.php"><button>Registrarse</button></a>
+</div>
+-->
+   </header>
+  <main>
     <section class="banner">
       <img src="img/banner.png" alt="Imagen de banner">
-       </section>
-       <section class="articulos">
-        <h2>Tendencias en Cursos Digitales para el 2024</h2>
-        <p>En el mundo actual, la formación online se ha convertido en una herramienta indispensable para el desarrollo profesional y personal. Cada vez son más las personas que optan por tomar cursos digitales para adquirir nuevas habilidades, actualizar sus conocimientos o simplemente por el placer de aprender.</p>
-        <h3>Las principales tendencias en cursos digitales para el 2024 incluyen:</h3>
-        <ul>
-          <li>**Cursos de desarrollo web y programación:** Python, JavaScript, etc.</li>
-          <li>**Cursos de marketing digital y redes sociales:** SEO, SEM, Content Marketing, etc.</li>
-          <li>**Cursos de diseño gráfico y multimedia:** Photoshop, Illustrator, Premiere Pro, etc.</li>
-          <li>**Cursos de idiomas:** Inglés, francés, alemán, etc.</li>
-          <li>**Cursos de habilidades blandas:** Comunicación, liderazgo, trabajo en equipo, etc.</li>
-        </ul>
-        <h2>5 Razones para Elegir Cursos Digitales</h2>
-        <p>Si estás pensando en tomar un curso online, aquí te presentamos 5 razones para elegir esta forma de aprendizaje:</p>
-        <ul>
-          <li>**Flexibilidad:** Puedes estudiar a tu ritmo y en tu propio tiempo.</li>
-          <li>**Accesibilidad:** Los costos son generalmente más económicos que la formación presencial.</li>
-          <li>**Variedad:** Existe una amplia gama de cursos disponibles para todos los intereses y necesidades.</li>
-          <li>**Actualización:** Los contenidos de los cursos online se actualizan constantemente para estar al día con las últimas tendencias del mercado laboral.</li>
-          <li>**Comunidad:** Puedes interactuar con otros estudiantes y profesores a través de foros, chats y otras herramientas online.</li>
-        </ul>
-        <h2>Consejos para Elegir el Curso Digital Perfecto</h2>
-        <p>Para elegir el curso digital perfecto para ti, te recomendamos seguir estos consejos:</p>
-        <ul>
-          <li>**Define tus objetivos:** ¿Qué quieres aprender? ¿Para qué te servirá el curso?</li>
-          <li>**Investiga las opciones:** Busca información sobre el contenido del curso, el instructor y la plataforma educativa.</li>
-          <li>**Lee las opiniones de otros estudiantes:** Conoce la experiencia de quienes ya han realizado el curso.</li>
-          <li>**Compara precios y ofertas:** Busca la mejor opción para tu presupuesto.</li>
-          <li>**Asegúrate de la calidad del curso:** Busca cursos con certificación o avalados por instituciones reconocidas.</li>
-        </ul>
-        <h2>Recursos para Encontrar Cursos Digitales</h2>
-        <p>Aquí te presentamos algunos recursos para encontrar cursos digitales:</p>
-        <ul>
-          <li>**Plataformas de cursos online:** Udemy, Coursera, edX, etc.</li>
-          <li>**Sitios web de universidades e instituciones educativas:** Busca cursos online en la página web de tu universidad o institución de confianza.</li>
-          <li>**Blogs y sitios web especializados:** Encuentra recomendaciones y opiniones sobre cursos digitales.</li>
-          <li>**Redes sociales:** Sigue a las plataformas de cursos online y a los
-          <li>**Redes sociales:** Sigue a las plataformas de cursos online y a los instructores que te interesen en redes sociales.</li>
-        </ul>
-    </section>  
+       </section> 
+
+      
       <section class="cursos">
       <h2>Cursos destacados</h2>
       <div class="grid-cursos">
@@ -100,6 +68,69 @@
         </article>
       </div>
     </section>
+
+
+
+    <section class="seccion-edumind">
+      <div class="contenedor">
+        <div class="titulo-seccion">
+          <h2>Qué esperar de un curso de Edumind</h2>
+        </div>
+    
+        <div class="informacion-seccion">
+          <div class="fila">
+            <div class="columna">
+              <div class="icono">
+                
+              </div>
+              <h3>Aprende a tu ritmo</h3>
+              <p>Disfruta aprendiendo desde casa, sin horarios y a tu ritmo. Tú decides cuándo seguir con cada unidad.</p>
+            </div>
+            <div class="columna">
+              <div class="icono">
+                
+              </div>
+              <h3>Aprende de los mejores profesionales</h3>
+              <p>Aprende los métodos y técnicas más útiles con los mejores profesionales del sector creativo.</p>
+            </div>
+          </div>
+          <div class="fila">
+            <div class="columna">
+              <div class="icono">
+               
+              </div>
+              <h3>Conoce a profesores expertos</h3>
+              <p>Cada profesor te transmitirá sus conocimientos con pasión, ofreciéndote explicaciones claras y una perspectiva profesional en cada lección.</p>
+            </div>
+            <div class="columna">
+              <div class="icono">
+                
+              </div>
+              <h3>Comparte conocimientos e ideas</h3>
+              <p>Pregunta, pide opinión y ofrece soluciones. Comparte tu experiencia de aprendizaje con otros estudiantes de la comunidad tan apasionados por la creatividad como tú.</p>
+            </div>
+          </div>
+          <div class="fila">
+            <div class="columna">
+              <div class="icono">
+                
+              </div>
+              <h3>Conecta con una comunidad creativa global</h3>
+              <p>Esta comunidad cuenta con millones de usuarios de todo el mundo, personas curiosas y con ganas de explorar y expresar su creatividad.</p>
+            </div>
+            <div class="columna">
+              <div class="icono">
+               
+              </div>
+              <h3>Consigue un certificado con cada curso</h3>
+              <p>Si eres Plus, obtén un certificado personalizado y firmado por tu profesor. Compártelo en tu porfolio, en las redes sociales o donde quieras.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <section class="testimonios">
       <h2>Comentarios</h2>
       <div class="grid-testimonios">
@@ -137,6 +168,30 @@
         </div>
       </div>
     </section>
+    <section class="seccion-cursos">
+      <h2>Profesores de Edumind</h2>
+      <p>Te invitamos a unirte a nuestra comunidad, una red formada por varios profesionales excelentes con los que podrás interactuar, aprender y compartir.</p>
+    
+      <div class="miembros">
+        <img src="img/a1.jpg" alt="Alex Trochut">
+        <img src="img/z1.jpg" alt="Zigor Samaniego">
+        <img src="img/j1.jpg" alt="Juan Francisco Cancelleri">
+        <img src="img/t1.jpg" alt="Tiane Touli">
+        <img src="img/i1.jpg" alt="Ina Hristova">
+      </div>
+    
+      <h3>Patrocinadores</h3>
+    
+      <div class="patrocinadores">
+        <img src="img/unerg.png" alt="Unerg">
+        <img src="img/ais.png" alt="AIS">
+        <img src="img/inces.jpg" alt="Inces">
+        <img src="img/gob.png" alt="Gob">
+      </div>
+    
+      <a href="#">Empieza ahora</a>
+    </section>
+    
     
   </main>
   <footer class="footer">
@@ -146,7 +201,7 @@
       <div class="footer-row">
       
           <div class="footer-links">
-              <h4>Compania</h4>
+              <h4>Empresa</h4>
               <ul>
                 <li><a href="#">Nosotros</a></li>
                 <li><a href="#">Nuestros servicios</a></li>
