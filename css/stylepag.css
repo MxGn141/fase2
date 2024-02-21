@@ -175,6 +175,13 @@ background-color: #3b5063;
 display: block;
 }
 */
+
+
+
+
+
+
+
 /* Banner */
 .banner {
   position: relative;
@@ -358,12 +365,10 @@ display: block;
   
 }
 
-.grid-contactos {
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
-  gap: 20px;
-  margin-left: 200px;
-  
+.flex-contactos {
+ margin-right: 20%;
+ margin-left: 20%;
+ 
   
 }
 
@@ -397,13 +402,11 @@ display: block;
   margin: auto;
 }
 
-.grid-contactos2 {
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
-  gap: 20px;
-  
-  
+.flex-contactos2 {
+  margin-left: 20%;
+  margin-right: 20%;
 }
+  
 
 .contacto2 {
   background-color: #fff;

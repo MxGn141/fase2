@@ -13,25 +13,20 @@
 <body>
 <header>
     <a href="index.html"><img src="img/logo.png" alt="Edumind"></a>
-    <h1>Edumind</h1>
-    <h2>Forjando un futuro</h2>
   </header>
-
-  <nav>
-		<ul class="menu-horizontal">
-			<li><a href="index.html">Inicio</a></li>
-			<li>
-				<a href="#">Cursos</a>	
-			</li>
-			<li>
-				<a href="#">Contacto</a>	
-			</li>
-			<li><a href="Conocenos.html">Conocenos</a></li>
-		</ul>
-	    </nav>
         <main>
-
-
+        <nav>
+      <input type="checkbox" id="check">
+  <label for="check" class="checkbtn">
+  <i class="fas fa-bars"></i>
+  </label>
+      <ul>
+        <li><a href="index.html" class="active" href="#">Inicio</a></li>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="Conocenos.html">Conocenos</a></li>
+      </ul>
+    </nav>
             <div class="contenedor__todo">
                 <div class="caja__trasera">
                     <div class="caja__trasera-login">
@@ -69,11 +64,61 @@
             </div>
 
         </main>
-
         <script src="codigo/script.js"></script>
-        <footer>
+        <footer class="footer">
+
+<div class="container">
+
+  <div class="footer-row">
+  
+      <div class="footer-links">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="Conocenos.html">Valores</a></li>
+            <li><a href="Conocenos.html">Mision</a></li>
+            <li><a href="Conocenos.html">Vision</a></li>
+            <li><a href="Conocenos.html">Objetivos</a></li>
+          </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Cursos</h4>
+        <ul>
+          <li><a href="cursos.html">Programacion</a></li>
+          <li><a href="cursos.html">Edicion</a></li>
+          <li><a href="cursos.html">Creatividad</a></li>
+        </ul>
+    </div>
+    <div class="footer-links">
+      <h4>Informacion</h4>
+      <ul>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="contacto.html">Politica de privacidad</a></li>
+        <li><a href="registro.php">Afiliate</a></li>
+      </ul>
+  </div>
+  <div class="footer-links">
+    <h4>Siguenos</h4>
+    <div class="social-link">
+        <a href="https://www.instagram.com/eduminddigital" target="_blank" title="Instagram">
+          <img src="img/insta.png" alt="Instagram">
+        </a>
+        <a href="https://www.facebook.com/usuario_facebook" target="_blank" title="Facebook">
+          <img src="img/face.png" alt="Facebook">
+        </a>
+        <a href="https://twitter.com/usuario_twitter" target="_blank" title="Twitter">
+          <img src="img/x.png" alt="Twitter">
+        </a>
+      
+    </div>
+    <br>
+    <br>
     <p>Copyright &copy; 2024 Edumind</p>
-    <a href="#">Contacto</a> | <a href="#">Política de privacidad</a>
-  </footer>
+</div>
+
+  </div>
+
+</div>
+
+</footer>
 </body>
 </html>

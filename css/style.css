@@ -404,8 +404,8 @@ nav{
   }
   
   .seccion-cursos .miembros img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     margin: 0 10px;
   }
@@ -422,8 +422,8 @@ nav{
   }
   
   .seccion-cursos .patrocinadores img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin: 0 10px;
   }
   
